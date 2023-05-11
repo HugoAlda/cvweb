@@ -1,13 +1,9 @@
-body {
+.flex {
     display: flex;
 }
   
-header, main {
+.flex2 {
     flex: 1;
-}
-
-header {
-    float: left;
 }
 
 .box {
@@ -59,7 +55,7 @@ i.fas {
 }
 
 .icono1 {
-    width: 20px;
+    width: 4.8%;
 }  
 
 /* Estilos para el encabezado */
@@ -110,6 +106,10 @@ section:nth-of-type(4) ul {
 /* Estilos para las referencias */
 section:last-of-type ul {
     list-style-type: none;
+}
+
+h5 {
+    background-color: rgba(0, 0, 0, 0.612);
 }
 
 /* Estilos para imprimir el CV */

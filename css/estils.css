@@ -31,10 +31,41 @@
     width: 20%;
 }
 
+section.borde.fondo {
+    overflow: hidden;
+    margin: 20px;
+    padding: 20px;
+}
+  
+section.borde.fondo .img {
+    float: left;
+    max-width: 50%;
+}
+  
+section.borde.fondo div {
+    min-width: 50%;
+}
+  
+section.borde.fondo img {
+    max-width: 100%;
+    height: auto;
+}
+  
+section.borde.fondo .titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+}
+  
+
 .titulo {
     color: green;
     font-weight: bold;
     text-align: center;
+}
+
+.titulo1 {
+    
 }
 
 /* ESTILS BARRA NAVEGACIÓ */

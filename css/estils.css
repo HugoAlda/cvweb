@@ -68,13 +68,10 @@ i.fas {
 
 /* Estilos para el encabezado */
 
-.centro {
-    text-align: center;
-}
-
 header {
     margin: 10px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 header h1 {

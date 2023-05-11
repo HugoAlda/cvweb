@@ -27,6 +27,10 @@
     background-color: rgb(254, 245, 231);
 }
 
+.img {
+    width: 20%;
+}
+
 .titulo {
     color: green;
     font-weight: bold;
@@ -38,6 +42,9 @@
 footer {
     background-color: #375eeb;
     padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 nav ul {

@@ -12,6 +12,12 @@
     margin: 10px;
 }
 
+.centro {
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
 .borde {
     border: 2px solid black;
     border-radius: 5px;
@@ -24,6 +30,7 @@
 .titulo {
     color: green;
     font-weight: bold;
+    text-align: center;
 }
 
 /* ESTILS BARRA NAVEGACIÓ */

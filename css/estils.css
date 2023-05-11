@@ -1,22 +1,30 @@
+* {
+    font-family: 'IM Fell Double Pica', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
 .flex {
     display: flex;
 }
   
 .flex2 {
     flex: 1;
+    margin: 10px;
 }
 
-.box {
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    transition: all 0.3s ease-in-out;
+.borde {
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
-.expanded {
-    width: 400px;
-    height: 400px;
-} 
+.fondo {
+    background-color: rgb(254, 245, 231);
+}
+
+.titulo {
+    color: green;
+    font-weight: bold;
+}
 
 /* ESTILS BARRA NAVEGACIÓ */
 
@@ -62,8 +70,8 @@ i.fas {
 
 header {
     text-align: center;
+    margin: 10px;
     margin-bottom: 20px;
-    border: 2px solid black;
 }
 
 header h1 {
@@ -78,9 +86,9 @@ header p {
 
 /* Estilos para las secciones */
 section {
-    margin-bottom: 30px;
-    border: 2px solid black;
+    margin: 10px;
     padding: 1%;
+    margin-bottom: 15px;
 }
 
 section h2 {
